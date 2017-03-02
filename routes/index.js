@@ -1,7 +1,6 @@
 'use strict'
 
 var formidable   = require('formidable');
-var filemetadata = require('../app/index.js');
 var path         = require('path')
 
 module.exports = function(app) {
