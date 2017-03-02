@@ -1,0 +1,30 @@
+{
+  "name": "filemetadata",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp: File Metadata",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskyd/filemetadata"
+  },
+  "keywords": [
+    "File Metadata",
+	"File",
+	"Metadata",
+    "Iskyd"
+  ],
+  "author": "Mattia Careddu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iskyd/whoami/filemetadata"
+  },
+  "homepage": "https://github.com/iskyd/filemetadata",
+  "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "*",
+    "formidable": "*"
+  }
+}

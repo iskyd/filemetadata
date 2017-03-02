@@ -1,0 +1,18 @@
+
+<html>
+    <head>
+        <title>File metadata</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome!</h1>
+            <p>You can upload a file and I will tell you the size!</p><br>
+            <form method="post" enctype="multipart/form-data" action="/file-upload">
+                <input type="file" name="fileUploaded">
+                <input class="btn btn-default" type="submit" style="margin-top:10px;">
+            </form>
+        </div>
+    </body>
+</html>
